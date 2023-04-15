@@ -1,0 +1,176 @@
+<!DOCTYPE HTML>
+<!--
+	Massively by HTML5 UP
+	html5up.net | @ajlkn
+	Free for personal and commercial use under the CCA 3.0 license (html5up.net/license)
+-->
+<html>
+	<head>
+		<title>Massively by HTML5 UP</title>
+		<meta charset="utf-8" />
+		<meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no" />
+		<link rel="stylesheet" href="assets/css/main.css" />
+		<noscript><link rel="stylesheet" href="assets/css/noscript.css" /></noscript>
+	</head>
+	<body class="is-preload">
+
+		<!-- Wrapper -->
+			<div id="wrapper" class="fade-in">
+
+				<!-- Intro -->
+					<div id="intro">
+						<h1>Hi, I'm Mateo <!--<br />
+						Mateo--></h1>
+						<p>Robotics, Innovation, CAD design in Solidworks, C++, Raspberry, Arduino, MATLAB</a>.</p>
+						<ul class="actions">
+							<li><a href="#header" class="button icon solid solo fa-arrow-down scrolly">Continue</a></li>
+						</ul>
+					</div>
+
+				<!-- Header -->
+					<header id="header">
+						<a class="logo">Portfolio</a>
+					</header>
+
+				<!-- Nav -->
+					<nav id="nav">
+						<ul class="links">
+							<li class="active"><a>Projects</a></li>
+							<!--<li><a href="generic.html">Generic Page</a></li>
+							<li><a href="elements.html">Elements Reference</a></li>-->
+						</ul>
+						<ul class="icons">
+							<!--<li><a href="https://www.linkedin.com/in/mateo-vernaza" class="icon brands fa-linkedin"><span class="label">Twitter</span></a></li>
+							<li><a href="https://github.com/mateovernaza" class="icon brands fa-github"><span class="label">GitHub</span></a></li>-->
+						</ul>
+					</nav>
+
+				<!-- Main -->
+					<div id="main">
+
+						<!-- Posts -->
+							<section class="posts">
+								<!-- Capstone Project -->
+								<article>
+									<header>
+										<h2><a>Obstacle-avoiding autonomous robot</a></h2>
+									</header>
+									<a class="image fit"><img src="images/autonomous_robot.gif" alt="" /></a>
+									<!--<a class="image fit"><img src="images/autonomous_robot_CAD.gif" alt="" /></a>-->
+									<p>The project consists of a low-cost, scaled autonomous robot that navigates through a warehouse-like environment to collect products while avoiding obstacles. The robot uses a pre-established map of the environment and calculates a visibility graph to determine the free-obstacle areas. When an order is placed through a website, the robot uses the A* algorithm to find the optimal path that passes through all the positions of the products. The robot uses a local planner based on virtual potential fields to avoid collision with dynamic obstacles not on the predefined map.</p>
+									<!--<ul class="actions special">
+										<li><a href="#" class="button">Full Story</a></li>
+									</ul>-->
+								</article>
+								<!-- UR5 -->
+								<article>
+									<header>
+										<h2><a>UR5 arm trajectory generation</a></h2>
+									</header>
+									<a class="image fit"><img src="images/UR5_simulation.gif" alt="" /></a>
+									<!--<a href="#" class="image fit"><img src="images/UR5_simulation2.gif" alt="" /></a>-->
+									<p>Developed a MATLAB program that generated the UR5 arm trajectory for Jenga tower assembly at a designated location using CoppeliaSim to simulate. To achieve this, I applied advanced mathematical techniques, such as matrix exponentials, matrix logarithms, and numeric inverse kinematics, to plan trajectories and control the arm's movements. The arm could assemble Jenga towers in positions and heights chosen by the users autonomously.</p>
+									<!--<ul class="actions special">
+										<li><a href="#" class="button">Full Story</a></li>
+									</ul>-->
+								</article>
+								<!-- RRT* & PRM* -->
+								<article>
+									<header>
+										<h2><a>RRT* and PRM* path planning algorithms</h2>
+									</header>
+									<a class="image fit"><img src="images/RRT_PRM.jpg" alt="" /></a>
+									<p>Developed and implemented a simulation in MATLAB that utilized Rapidly-exploring Random Trees* (RRT*) and Probabilistic Roadmaps* (PRM*) algorithms to generate collision-free paths in obstacle-filled environments. The RRT* algorithm generated a single optimal path by exploring the configuration space, while the PRM* algorithm precomputed a roadmap of the configuration space and then found the optimal path using A* search. The simulation included visualizations of the path planning process and allowed users to adjust various parameters to explore the trade-offs between path quality and computational efficiency.</p>
+									<!--<ul class="actions special">
+										<li><a href="#" class="button">Full Story</a></li>
+									</ul>-->
+								</article>
+								<!-- Gimbal -->
+								<article>
+									<header>
+										<h2><a>Gimbal Camera Control System</a></h2>
+									</header>
+									<a class="image fit"><img src="images/gimbal.gif" alt="" /></a>
+									<p>During my internship at Aeroseed Sky, I designed a gimbal camera control system for a crop surveillance drone. Used SolidWorks for detailed CAD designs and FEA simulations. Developed a 3DoF kinematic model and implemented a PID controller to stabilize and control camera angles, minimizing image vibrations.</p>
+									<!--<ul class="actions special">
+										<li><a href="#" class="button">Full Story</a></li>
+									</ul>-->
+								</article>
+								<!-- Smart Glasses -->
+								<article>
+									<header>
+										<h2><a>Smart Glasses</a></h2>
+									</header>
+									<a class="image fit"><img src="images/smart_glasses_test.jpg" alt="" /></a>
+									<p>Developed a smart glasses prototype that utilizes sound pattern recognition through the SOPARE system to display spoken words as text for individuals with hearing impairments. The glasses frame was designed using SolidWorks and integrated with a text projection system that adjusts the focal point using a convex lens for a clear text display. The project aims to provide a teleprompter-like experience for those with hearing impairments, allowing them to read translated conversations displayed on their glasses.</p>
+									<!--<ul class="actions special">
+										<li><a href="#" class="button">Full Story</a></li>
+									</ul>-->
+								</article>
+								<!-- Heat Transfer -->
+								<article>
+									<header>
+										<h2><a>Heat Transfer Simulation</a></h2>
+									</header>
+									<a class="image fit"><img src="images/heat_equation_simulation.jpg" alt="" /></a>
+									<p>Conducted research on applying numerical methods to solve the Laplace heat equation for rectangular plates and plates with round corners. I utilized the Liebman method to calculate heat distribution in a steady state, and the Alternating-Direction Implicit (ADI) method was used to compute heat distribution in a transitory state. I applied these methods to a MATLAB program to visualize the results.</p>
+									<!--<ul class="actions special">
+										<li><a href="#" class="button">Full Story</a></li>
+									</ul>-->
+								</article>
+							</section>
+
+						<!-- Footer -->
+							<!-- <footer>
+								<div class="pagination">
+									<a href="#" class="previous">Prev</a>
+									<a href="#" class="page active">1</a>
+									<a href="#" class="page">2</a>
+									<a href="#" class="page">3</a>
+									<span class="extra">&hellip;</span>
+									<a href="#" class="page">8</a>
+									<a href="#" class="page">9</a>
+									<a href="#" class="page">10</a>
+									<a href="#" class="next">Next</a>
+								</div>
+							</footer>-->
+
+					</div>
+
+				<!-- Footer -->
+					<footer id="footer">
+						<section class="split contact">
+							<section>
+								<h3>Email</h3>
+								<p><a>mateov98@gmail.com</a></p>
+							</section>
+						</section>
+						<!--<section class="split contact">
+							<section>
+								<h3>Social</h3>
+								<ul class="icons alt">
+									<li><a href="https://www.linkedin.com/in/mateo-vernaza" class="icon brands alt fa-linkedin"><span class="label">Twitter</span></a></li>
+									<li><a href="https://github.com/mateovernaza" class="icon brands alt fa-github"><span class="label">GitHub</span></a></li>
+								</ul>
+							</section>
+						</section>-->
+					</footer>
+
+				<!-- Copyright -->
+					<div id="copyright">
+						<ul><li>&copy; Untitled</li><li>Design: <a href="https://html5up.net">HTML5 UP</a></li></ul>
+					</div>
+
+			</div>
+
+		<!-- Scripts -->
+			<script src="assets/js/jquery.min.js"></script>
+			<script src="assets/js/jquery.scrollex.min.js"></script>
+			<script src="assets/js/jquery.scrolly.min.js"></script>
+			<script src="assets/js/browser.min.js"></script>
+			<script src="assets/js/breakpoints.min.js"></script>
+			<script src="assets/js/util.js"></script>
+			<script src="assets/js/main.js"></script>
+
+	</body>
+</html>
